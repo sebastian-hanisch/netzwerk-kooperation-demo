@@ -1,0 +1,8820 @@
+{
+ "meta": {
+  "seeds": [
+   2000,
+   2001,
+   2002,
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019
+  ],
+  "w": 0.1,
+  "generations": 60,
+  "lattice": 20,
+  "weak_w": 0.001,
+  "start_share": 0.5,
+  "seconds": 221
+ },
+ "exact": [
+  {
+   "kind": "exact",
+   "n": 6,
+   "k": 2,
+   "rule": "DB",
+   "critical": 4.002676910022274,
+   "formula": 4.0
+  },
+  {
+   "kind": "exact",
+   "n": 6,
+   "k": 2,
+   "rule": "IM",
+   "critical": null,
+   "formula": null
+  },
+  {
+   "kind": "exact",
+   "n": 6,
+   "k": 2,
+   "rule": "BD",
+   "critical": null,
+   "formula": null
+  },
+  {
+   "kind": "exact",
+   "n": 6,
+   "k": 4,
+   "rule": "DB",
+   "critical": null,
+   "formula": null
+  },
+  {
+   "kind": "exact",
+   "n": 6,
+   "k": 4,
+   "rule": "IM",
+   "critical": null,
+   "formula": null
+  },
+  {
+   "kind": "exact",
+   "n": 6,
+   "k": 4,
+   "rule": "BD",
+   "critical": null,
+   "formula": null
+  },
+  {
+   "kind": "exact",
+   "n": 8,
+   "k": 2,
+   "rule": "DB",
+   "critical": 3.0012531701941043,
+   "formula": 3.0
+  },
+  {
+   "kind": "exact",
+   "n": 8,
+   "k": 2,
+   "rule": "IM",
+   "critical": 13.113691667793319,
+   "formula": null
+  },
+  {
+   "kind": "exact",
+   "n": 8,
+   "k": 2,
+   "rule": "BD",
+   "critical": null,
+   "formula": null
+  },
+  {
+   "kind": "exact",
+   "n": 8,
+   "k": 4,
+   "rule": "DB",
+   "critical": null,
+   "formula": null
+  },
+  {
+   "kind": "exact",
+   "n": 8,
+   "k": 4,
+   "rule": "IM",
+   "critical": null,
+   "formula": null
+  },
+  {
+   "kind": "exact",
+   "n": 8,
+   "k": 4,
+   "rule": "BD",
+   "critical": null,
+   "formula": null
+  },
+  {
+   "kind": "exact",
+   "n": 10,
+   "k": 2,
+   "rule": "DB",
+   "critical": 2.6674981031101197,
+   "formula": 2.6666666666666665
+  },
+  {
+   "kind": "exact",
+   "n": 10,
+   "k": 2,
+   "rule": "IM",
+   "critical": 8.52924290834926,
+   "formula": null
+  },
+  {
+   "kind": "exact",
+   "n": 10,
+   "k": 2,
+   "rule": "BD",
+   "critical": null,
+   "formula": null
+  },
+  {
+   "kind": "exact",
+   "n": 10,
+   "k": 4,
+   "rule": "DB",
+   "critical": 16.240057872375473,
+   "formula": 16.0
+  },
+  {
+   "kind": "exact",
+   "n": 10,
+   "k": 4,
+   "rule": "IM",
+   "critical": null,
+   "formula": null
+  },
+  {
+   "kind": "exact",
+   "n": 10,
+   "k": 4,
+   "rule": "BD",
+   "critical": null,
+   "formula": null
+  }
+ ],
+ "spatial": [
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2000,
+   "share": 0.0425,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2000,
+   "share": 0.085,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2001,
+   "share": 0.275,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2002,
+   "share": 0.0425,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2003,
+   "share": 0.585,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2005,
+   "share": 0.04,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2006,
+   "share": 0.0875,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2007,
+   "share": 0.4175,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2008,
+   "share": 0.115,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2010,
+   "share": 0.195,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2011,
+   "share": 0.0175,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2012,
+   "share": 0.085,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2014,
+   "share": 0.0375,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2015,
+   "share": 0.09,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2016,
+   "share": 0.01,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2017,
+   "share": 0.1175,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2019,
+   "share": 0.0625,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2000,
+   "share": 0.6225,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2001,
+   "share": 0.1375,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2002,
+   "share": 0.3275,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2003,
+   "share": 0.64,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2004,
+   "share": 0.0525,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2005,
+   "share": 0.3325,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2006,
+   "share": 0.2975,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2007,
+   "share": 0.5625,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2008,
+   "share": 0.65,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2009,
+   "share": 0.025,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2010,
+   "share": 0.705,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2011,
+   "share": 0.4625,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2012,
+   "share": 0.4225,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2013,
+   "share": 0.145,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2014,
+   "share": 0.615,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2015,
+   "share": 0.6325,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2016,
+   "share": 0.5825,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2017,
+   "share": 0.4125,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2018,
+   "share": 0.585,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2019,
+   "share": 0.3075,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2000,
+   "share": 0.93,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2001,
+   "share": 0.8575,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2002,
+   "share": 0.7175,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2003,
+   "share": 0.86,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2004,
+   "share": 0.6425,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2005,
+   "share": 0.855,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2006,
+   "share": 0.475,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2007,
+   "share": 0.7575,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2008,
+   "share": 0.8325,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2009,
+   "share": 0.7375,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2010,
+   "share": 0.755,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2011,
+   "share": 0.7875,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2012,
+   "share": 0.7775,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2013,
+   "share": 0.7175,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2014,
+   "share": 0.855,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2015,
+   "share": 0.9225,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2016,
+   "share": 0.89,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2017,
+   "share": 0.7675,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2018,
+   "share": 0.895,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2019,
+   "share": 0.7825,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2000,
+   "share": 0.9725,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2001,
+   "share": 0.9825,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2002,
+   "share": 0.9075,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2003,
+   "share": 0.875,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2004,
+   "share": 0.78,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2005,
+   "share": 0.9325,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2006,
+   "share": 0.8475,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2007,
+   "share": 0.9525,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2008,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2009,
+   "share": 0.755,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2010,
+   "share": 0.89,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2011,
+   "share": 0.9775,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2012,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2013,
+   "share": 0.9675,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2014,
+   "share": 0.9575,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2015,
+   "share": 0.905,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2016,
+   "share": 0.7875,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2017,
+   "share": 0.8525,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2018,
+   "share": 0.85,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2019,
+   "share": 0.7825,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2000,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2001,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2002,
+   "share": 0.97,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2003,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2004,
+   "share": 0.98,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2005,
+   "share": 0.9775,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2006,
+   "share": 0.9625,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2007,
+   "share": 0.9775,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2008,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2009,
+   "share": 0.99,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2010,
+   "share": 0.985,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2011,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2012,
+   "share": 0.9925,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2013,
+   "share": 0.99,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2014,
+   "share": 0.99,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2015,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2016,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2017,
+   "share": 0.965,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2018,
+   "share": 0.97,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2019,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2000,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2001,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2002,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2003,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2004,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2005,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2006,
+   "share": 0.96,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2007,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2008,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2009,
+   "share": 0.985,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2010,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2011,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2012,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2013,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2014,
+   "share": 0.99,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2015,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2016,
+   "share": 0.99,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2017,
+   "share": 0.975,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2018,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2019,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2000,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2001,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2002,
+   "share": 0.9925,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2003,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2004,
+   "share": 0.9975,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2005,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2006,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2007,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2008,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2009,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2010,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2011,
+   "share": 0.995,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2012,
+   "share": 0.9825,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2013,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2014,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2015,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2016,
+   "share": 0.9525,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2017,
+   "share": 0.995,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2018,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2019,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2019,
+   "share": 0.0725,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2006,
+   "share": 0.0325,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2015,
+   "share": 0.0375,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2017,
+   "share": 0.105,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2000,
+   "share": 0.785,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2001,
+   "share": 0.3175,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2002,
+   "share": 0.68,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2003,
+   "share": 0.7425,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2004,
+   "share": 0.455,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2005,
+   "share": 0.45,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2006,
+   "share": 0.73,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2008,
+   "share": 0.2725,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2010,
+   "share": 0.14,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2012,
+   "share": 0.1,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2014,
+   "share": 0.4125,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2015,
+   "share": 0.545,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2016,
+   "share": 0.435,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2017,
+   "share": 0.0325,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2018,
+   "share": 0.2125,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2019,
+   "share": 0.1925,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2000,
+   "share": 0.755,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2001,
+   "share": 0.7975,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2002,
+   "share": 0.48,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2003,
+   "share": 0.5625,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2004,
+   "share": 0.2625,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2005,
+   "share": 0.515,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2006,
+   "share": 0.7625,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2007,
+   "share": 0.8425,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2008,
+   "share": 0.895,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2009,
+   "share": 0.8325,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2010,
+   "share": 0.5825,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2011,
+   "share": 0.5525,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2012,
+   "share": 0.685,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2013,
+   "share": 0.39,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2014,
+   "share": 0.585,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2015,
+   "share": 0.825,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2016,
+   "share": 0.795,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2017,
+   "share": 0.635,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2018,
+   "share": 0.5175,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2019,
+   "share": 0.625,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2000,
+   "share": 0.8275,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2001,
+   "share": 0.695,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2002,
+   "share": 0.8,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2003,
+   "share": 0.8475,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2004,
+   "share": 0.935,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2005,
+   "share": 0.88,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2006,
+   "share": 0.875,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2007,
+   "share": 1.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2008,
+   "share": 0.9,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2009,
+   "share": 0.795,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2010,
+   "share": 0.7525,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2011,
+   "share": 0.935,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2012,
+   "share": 0.935,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2013,
+   "share": 0.535,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2014,
+   "share": 0.9175,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2015,
+   "share": 0.4825,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2016,
+   "share": 0.8925,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2017,
+   "share": 0.675,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2018,
+   "share": 0.68,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "DB",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2019,
+   "share": 0.74,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2011,
+   "share": 0.0375,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2018,
+   "share": 0.005,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2000,
+   "share": 0.045,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2001,
+   "share": 0.0225,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2002,
+   "share": 0.06,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2003,
+   "share": 0.055,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2004,
+   "share": 0.1225,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2007,
+   "share": 0.02,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2009,
+   "share": 0.0425,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2010,
+   "share": 0.13,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2011,
+   "share": 0.11,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2013,
+   "share": 0.0275,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2015,
+   "share": 0.1225,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2016,
+   "share": 0.0275,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2017,
+   "share": 0.0325,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2000,
+   "share": 0.05,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2001,
+   "share": 0.055,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2002,
+   "share": 0.3,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2003,
+   "share": 0.195,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2004,
+   "share": 0.405,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2005,
+   "share": 0.0925,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2006,
+   "share": 0.1675,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2007,
+   "share": 0.0325,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2008,
+   "share": 0.0775,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2009,
+   "share": 0.2075,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2010,
+   "share": 0.2075,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2011,
+   "share": 0.14,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2012,
+   "share": 0.3325,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2013,
+   "share": 0.2225,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2014,
+   "share": 0.3,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2015,
+   "share": 0.0525,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2016,
+   "share": 0.2575,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2017,
+   "share": 0.015,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2018,
+   "share": 0.42,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2019,
+   "share": 0.18,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2000,
+   "share": 0.21,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2001,
+   "share": 0.515,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2002,
+   "share": 0.1125,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2003,
+   "share": 0.38,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2004,
+   "share": 0.5725,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2005,
+   "share": 0.2375,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2007,
+   "share": 0.3675,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2009,
+   "share": 0.2725,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2010,
+   "share": 0.2725,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2011,
+   "share": 0.1275,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2012,
+   "share": 0.4025,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2013,
+   "share": 0.7275,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2014,
+   "share": 0.5375,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2015,
+   "share": 0.29,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2016,
+   "share": 0.215,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2017,
+   "share": 0.1675,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2018,
+   "share": 0.64,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2019,
+   "share": 0.45,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2000,
+   "share": 0.8175,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2001,
+   "share": 0.685,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2002,
+   "share": 0.76,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2003,
+   "share": 0.835,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2004,
+   "share": 0.5725,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2005,
+   "share": 0.805,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2006,
+   "share": 0.83,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2007,
+   "share": 0.9025,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2008,
+   "share": 0.605,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2009,
+   "share": 0.885,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2010,
+   "share": 0.935,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2011,
+   "share": 0.45,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2012,
+   "share": 0.83,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2013,
+   "share": 0.775,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2014,
+   "share": 0.7475,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2015,
+   "share": 0.475,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2016,
+   "share": 0.87,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2017,
+   "share": 0.655,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2018,
+   "share": 0.715,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2019,
+   "share": 0.88,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2000,
+   "share": 0.8675,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2001,
+   "share": 0.9375,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2002,
+   "share": 0.9625,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2003,
+   "share": 0.755,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2004,
+   "share": 0.585,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2005,
+   "share": 0.955,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2006,
+   "share": 0.96,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2007,
+   "share": 0.93,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2008,
+   "share": 0.9225,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2009,
+   "share": 0.62,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2010,
+   "share": 0.97,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2011,
+   "share": 0.7625,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2012,
+   "share": 0.935,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2013,
+   "share": 0.835,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2014,
+   "share": 0.905,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2015,
+   "share": 0.7625,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2016,
+   "share": 0.91,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2017,
+   "share": 0.7025,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2018,
+   "share": 0.8525,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2019,
+   "share": 0.8775,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2000,
+   "share": 0.925,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2001,
+   "share": 0.9725,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2002,
+   "share": 0.955,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2003,
+   "share": 0.9425,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2004,
+   "share": 0.95,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2005,
+   "share": 0.965,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2006,
+   "share": 0.975,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2007,
+   "share": 0.9175,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2008,
+   "share": 0.9725,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2009,
+   "share": 0.9025,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2010,
+   "share": 0.97,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2011,
+   "share": 0.9725,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2012,
+   "share": 0.9475,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2013,
+   "share": 0.88,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2014,
+   "share": 0.9375,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2015,
+   "share": 0.9125,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2016,
+   "share": 0.8925,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2017,
+   "share": 0.845,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2018,
+   "share": 0.9225,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2019,
+   "share": 0.935,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2005,
+   "share": 0.0375,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2006,
+   "share": 0.085,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2012,
+   "share": 0.095,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2000,
+   "share": 0.4,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2003,
+   "share": 0.3475,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2004,
+   "share": 0.09,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2005,
+   "share": 0.1525,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2007,
+   "share": 0.2475,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2009,
+   "share": 0.0525,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2012,
+   "share": 0.205,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2014,
+   "share": 0.0225,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2015,
+   "share": 0.295,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2016,
+   "share": 0.065,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2018,
+   "share": 0.105,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2019,
+   "share": 0.07,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2000,
+   "share": 0.5375,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2001,
+   "share": 0.5225,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2002,
+   "share": 0.635,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2003,
+   "share": 0.5575,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2004,
+   "share": 0.7475,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2005,
+   "share": 0.58,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2006,
+   "share": 0.04,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2007,
+   "share": 0.7375,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2010,
+   "share": 0.325,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2011,
+   "share": 0.3225,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2012,
+   "share": 0.5175,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2013,
+   "share": 0.1875,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2014,
+   "share": 0.52,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2015,
+   "share": 0.1625,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2016,
+   "share": 0.6525,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2017,
+   "share": 0.51,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2018,
+   "share": 0.3525,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2019,
+   "share": 0.3225,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2000,
+   "share": 0.5275,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2001,
+   "share": 0.5775,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2002,
+   "share": 0.7125,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2003,
+   "share": 0.93,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2004,
+   "share": 0.8675,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2005,
+   "share": 0.6925,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2006,
+   "share": 0.3725,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2007,
+   "share": 0.685,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2008,
+   "share": 0.4625,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2009,
+   "share": 0.28,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2010,
+   "share": 0.4425,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2011,
+   "share": 0.66,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2012,
+   "share": 0.58,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2013,
+   "share": 0.6775,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2014,
+   "share": 0.3525,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2015,
+   "share": 0.98,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2016,
+   "share": 0.3775,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2017,
+   "share": 0.4625,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2018,
+   "share": 0.5475,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "IM",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2019,
+   "share": 0.2425,
+   "absorbed": false
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 2.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 3.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 4.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 5.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 6.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 8.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 10.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 4,
+   "br": 12.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 2.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 3.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 4.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 5.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 6.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 8.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 10.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2000,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2001,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2002,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2003,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2004,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2005,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2006,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2007,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2008,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2009,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2010,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2011,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2012,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2013,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2014,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2015,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2016,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2017,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2018,
+   "share": 0.0,
+   "absorbed": true
+  },
+  {
+   "kind": "spatial",
+   "rule": "BD",
+   "neighbors": 8,
+   "br": 12.0,
+   "seed": 2019,
+   "share": 0.0,
+   "absorbed": true
+  }
+ ]
+}
