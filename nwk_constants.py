@@ -51,7 +51,7 @@ PRESETS = {
 PRESET_HELP = {
     "Death-Birth, 4 Nachbarn, b/c = 5": "Über der Schwelle b/c = k = 4: Kooperierende bilden Nester und halten sich.",
     "Death-Birth, 4 Nachbarn, b/c = 3": "Unter der Schwelle: Die Defektierer verdrängen die Kooperierenden.",
-    "Imitation, 4 Nachbarn, b/c = 5": "Die Schwelle liegt bei Imitation höher (k + 2): Bei b/c = 5 trägt es nicht.",
+    "Imitation, 4 Nachbarn, b/c = 5": "Die Schwelle liegt bei Imitation höher (k + 2): Bei b/c = 5 gelingt es nicht.",
     "Birth-Death, 4 Nachbarn, b/c = 10": "Bei Birth-Death hilft die Nachbarschaft nichts: Kooperation verliert bei jedem b/c.",
     "Death-Birth, 8 Nachbarn, b/c = 5": "Mit 8 statt 4 Nachbarn liegt die Schwelle der Theorie bei k = 8: Bei b/c = 5 reicht der Nutzen nicht.",
 }

@@ -1,4 +1,4 @@
-# Kooperation in Netzen: warum Nachbarschaft Kooperation trägt – Streamlit-Demo
+# Kooperation in Netzen: warum Nachbarschaft Kooperation stützt – Streamlit-Demo
 
 **[→ Demo live ausprobieren](https://sebastianhanisch-netzwerk-kooperation-demo.streamlit.app/)**
 

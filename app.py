@@ -1,4 +1,4 @@
-"""Kooperation in Netzen: warum Nachbarschaft Kooperation trägt - interaktive Konzept-Demo
+"""Kooperation in Netzen: warum Nachbarschaft Kooperation stützt - interaktive Konzept-Demo
 Sebastian Hanisch - Operations Research und Machine Learning
 
 Elftes Stück der Wiederholte-Spiele-Linie (optional): Wer nur mit Nachbarn spielt und nur von Nachbarn lernt, kann Kooperation halten, ohne Gedächtnis und ohne Reputation.
@@ -24,7 +24,7 @@ from nwk_presets import (
 )
 from nwk_visualization import build_exact_curve, build_grid, build_threshold, build_trace
 
-st.set_page_config(page_title="Kooperation in Netzen: warum Nachbarschaft Kooperation trägt – Sebastian Hanisch", layout="wide")
+st.set_page_config(page_title="Kooperation in Netzen: warum Nachbarschaft Kooperation stützt – Sebastian Hanisch", layout="wide")
 
 
 @st.cache_data(show_spinner=False)
@@ -37,7 +37,7 @@ def _curve(n, k, rule):
     return E.exact_curve(n, k, rule)
 
 
-st.title("🕸️ Kooperation in Netzen: warum Nachbarschaft Kooperation trägt")
+st.title("🕸️ Kooperation in Netzen: warum Nachbarschaft Kooperation stützt")
 st.markdown(
     """
 In einer durchmischten Population verliert Kooperation: Wer nichts beisteuert, verdient mehr. Anders ist es, wenn jeder nur mit seinen **Nachbarn** spielt und nur von
@@ -132,7 +132,7 @@ if sweeps is None:
     st.warning("Die vorgerechnete Tabelle `nwk_sweeps.json` fehlt. Erzeugen mit `python nwk_make_sweeps.py`.")
 else:
     # --- Experiment 1 ----------------------------------------------------------------------------------------------------------------------
-    st.subheader("🔬 Experiment: Ab welchem Nutzen trägt es?")
+    st.subheader("🔬 Experiment: Ab welchem Nutzen gelingt es?")
     st.caption(f"Mittlerer Endanteil Kooperierender auf dem 20×20-Gitter mit {settings.neighbors} Nachbarn, {sweeps['meta']['generations']} Generationen, w = {fmt(sweeps['meta']['w'])}, "
                f"Start 50 %, je Punkt {len(sweeps['meta']['seeds'])} Zufalls-Seeds. Vorgerechnet.")
     series = {r: E.spatial_series(r, settings.neighbors) for r in C.RULE_KEYS}
@@ -141,8 +141,8 @@ else:
     for i, point in enumerate(series["DB"]):
         rows.append(f"| {fmt(point['br'], 0)} | " + " | ".join(f"{fmt(series[r][i]['mean'] * 100, 0)} %" for r in C.RULE_KEYS) + " |")
     st.markdown("\n".join(rows))
-    st.info("Die Regel entscheidet: Bei Death-Birth steigt der Anteil schon bei b/c um k, bei Imitation erst später, und bei Birth-Death trägt auch ein b/c von 12 die "
-            "Kooperation nicht. Wer zuerst stirbt und von Nachbarn ersetzt wird, hat die Konkurrenz um den Platz vor der eigenen Tür; wer andere ersetzt, nicht.")
+    st.info("Die Regel entscheidet: Bei Death-Birth steigt der Anteil schon bei b/c um k, bei Imitation erst später, und bei Birth-Death reicht auch ein b/c von 12 nicht für die "
+            "Kooperation. Wer zuerst stirbt und von Nachbarn ersetzt wird, hat die Konkurrenz um den Platz vor der eigenen Tür; wer andere ersetzt, nicht.")
     st.markdown("---")
 
     # --- Experiment 2 ----------------------------------------------------------------------------------------------------------------------
