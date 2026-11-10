@@ -1,7 +1,6 @@
 # Kooperation in Netzen: warum Nachbarschaft Kooperation trägt – Streamlit-Demo
 
-<!-- Nach dem Deploy direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-netzwerk-kooperation-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-netzwerk-kooperation-demo.streamlit.app/)**
 
 Elftes (optionales) Stück der **Wiederholte-Spiele-Linie** in der „Konzepte“-Reihe für die Website „Sebastian Hanisch – Operations Research und Machine Learning“.
 Setzt auf [replikator-demo](https://sebastianhanisch-replikator-demo.streamlit.app/) auf: Dort verliert die Kooperation in der durchmischten Population. Hier spielt und lernt jeder
